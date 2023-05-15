@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>contato</title>
+</head>
+<body>
+    <form name="form">
+        <h1>contato</h1>
+        <p class="nome">
+            <label for="nome">NOME:</label>
+            <input type="nome" id="nomeid"
+            placeholder="Digite seu nome" name="nome" required="required">
+        </p>
+        <p class="nome">
+            <label for="email">NOME:</label>
+            <input type="email" id="emaild"
+            placeholder="Digite seu nome" name="email" required="required">
+        </p>
+        <input type="submit" onclick="Enviar" value="Enviar">
+
+        <p class="telefone">
+            <label for="telefone" id="telefone"></label>
+            <input placeholder="Digite seu email" name="telefone" required="required">
+        </p>
+
+        <p>
+            <textarea placeholder="deixe sua mensagem"></textarea>
+        </p><br>
+
+        <input type="submit" onclick="Enviar" value="Enviar">
+
+    </form>
+    <br>
+
+        <div class="maps">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.1215011244!2d-46.654966790003975!3d-23.564079361601937!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59c7dbf9ff57%3A0x4ca8eb5c4f7ecca9!2sFIAP!5e0!3m2!1spt-BR!2sbr!4v1684159299835!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        
+        <p style="margin-top: 0%;">numeros: <input type="text" id="numeros">
+        <input type="button" value="calcular" onclick="CalcQuadrado()"></p>
+    <script src="script.js"></script>
+</body>
+</html>
